@@ -1,5 +1,5 @@
 ST10513076 WEDE5020 POE Part 3
-Jamie Carolus 
+Jamie Carolus
 
 Project overview
 Brief Description of Game retail Target Audience Proposal
@@ -42,6 +42,7 @@ Game Retail in South Africa is well known for theier goods products and their Pr
 
 ### What Changed From Part 1 to Part 2
 -Added New CSS Styling and responisve Layout
+- SEO meta tags: description , keywords
 -Fixed Navigation Links between Pages
 Added Products Images 
 Improved Contact Page
@@ -79,8 +80,8 @@ Github
 -Responsive Typography Implemented
 -Mobile navigation Redesign, updated navigation bar
 -Interactive Elements Added Javascript
--SEO added
-
+-SEO added: meta tags, description, keywords, sitemap
+Added style.css for Consistant styling
 
 ### Links
 Github Repo

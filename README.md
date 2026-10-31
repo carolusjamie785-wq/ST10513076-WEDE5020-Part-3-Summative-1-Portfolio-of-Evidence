@@ -119,11 +119,11 @@ https://innowise.com/blog/plan-your-own-ecommerce-website-development-step-by-st
 -added my references
 
 ### part 2 changelog
-improved websie added css
-added typography links
-added styling
-added borders
-added semantics
+-improved websie added css
+-added typography links
+-added styling
+-added borders
+-added semantics
 
 ### 2026-10-31 final optimization
 -added Javascript form validation for enquiry and contact

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Game retail customer support. find store location, contact details, and business hours in johannesburg and Cape Town">
+    <meta name="keywords" content="Game Retail contact, customer support, store locations, Johannessburg store, Cape Town store">
+    <title>Contact Us | Game retail Customer Support & Store locations</title>
+   <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+
+   <!--Site Header & Consistant Navigation-->
+   <header>
+      <nav>
+   <div class="logo"></div>
+   </div>
+   <nav>
+   <ul>
+   <li><a href="ST10513076 contact.html">Contact</a></li>
+   <li><a href="ST10513076 Homepage index.html">Home</a></li>
+   <li><a href="ST10513076 WEDE5020 products.html">Products</a></li>
+   <li><a href="ST10513076 About.html">About</a></li>
+   <li><a href="ST10513076 Enquriy.html">Enquiry</a></li>
+</nav>
+
+
+
+</ul>
+</header>
+   </nav>
+   </header>
+   
+   <!--Main Content Container-->
+   <main>
+
+      <!--Hero Section-->
+      <section class="contact-hero">
+      <h2>Get in Touch</h2>
+      <p>Have questions or feedback? We'd love to hear from you!</p>
+      </section>
+
+      <!--Main Grid layout-->
+      <div class="contact container">
+
+      <!--Direct Contact Details-->
+      <div class="contact-details">
+      <h3>Contact details</h3>
+      
+ <!--Live search input-->
+   <input type="text" id="faqSearch" placeholder="Search contact details & Business Hours" onkeyup="filterfaqs()" style="width: 100%; padding: 10px; margin-bottom: 15px; background: #302252; color: white; border: 1px solid #660a57; border-radius: 4px;">
+
+
+      <!--Location 1 Johannesburg-->
+      <button class="accordion" onclick="togglefaq(this)">Johannesburg store</button>
+      <div class="panel">
+       <p><strong>Customer Support:</strong> <a href="mailto:support@game.co.za">support@game.co.za</a></p>
+      <p><strong>Phone:</strong> +27 11 123 4567</p>
+      <p><strong>Address:</strong> Game JHB City, Johannesburg, South Africa</p>
+      <p>
+       22 Junction Avenue , Johannesburg, South Africa
+      </p>
+      </div>
+      
+<!--Location 2 Cape Town-->
+<button class="accordion" onclick="togglefaq(this)">Cape Town Store Mitchells Plain</button>
+<div class="panel">
+<p><strong>Customer Support:</strong></p>
+<p><strong>Phone: </strong> +27 11 256 4521</p>
+<p><strong>Address:</strong>Liberty Promenade, Game Mitchells Plain Cape Town</p>
+</div>
+
+
+     <!--Ebedded Google Map-->
+     <div class="map-container" style="margin-top: 30px;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7078067.944482584!2d18.07564753793867!3d-29.97690480479782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950e9f5a33f2a3%3A0x1b946acac5df5725!2sGame%20JHB%20City!5e0!3m2!1sen!2sza!4v1789554268960!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+     </div>
+   </article>
+
+  <!--Embedded Google Map-->
+  <div class="map-container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211866.00656149618!2d18.402391078539512!3d-33.930675326062904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc4601c4e3d707%3A0x1fb582f9e2aa6a60!2sGame%20Mitchell's%20Plain!5e0!3m2!1sen!2sza!4v1789555176735!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+</article>
+
+      <button class="accordion" onclick="togglefaq(this)">Business Hours</button>
+      <div class="panel">
+      <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+      <p>Saturday - Sunday: 9:00Am -13:00PM</p>
+      </div>
+
+      <!--Customer Inquiry Form-->
+      <section class="Contact-form-section">
+      <h3>Send Us a message at GAme.co@gmail.com</h3>
+
+      <form id="contactForm" novalidate action="#" method="POST" class="enquiry-form">
+         <div class="form-group">
+         <label for="contactname">Full Name</label>
+         <input type="text" id="contactname" name="full_name" required placeholder="Enter your Full name">
+         </div>
+
+         <div class="form-group">
+         <label for="contactemail">Email Address</label>
+         <input type="email" id="contactemail" name="email" required placeholder="Enter your Name including email">
+         </div>
+
+         <div class="form-group">
+         <label for="contactsubject">Subject</label>
+         <select id="contactsubject" name="subject" required>
+           <option value="" disabled selected>Select an option</option>
+           <option value="order">Order Query</option>
+           <option value="stock">Stock Available</option>
+             <option value="returns">Returns and Refunds</option>
+             <option value="feedback">Feedback</option>
+            </select>
+            </div>
+
+          <div class="form-group">
+          <label for="contactmessage">Message</label>
+          <textarea id="contactmessage" name="message" rows="5"required placeholder="Enter your message"></textarea>
+          </div>
+
+   <!--Checkbox Field-->
+<div class="form-group checkbox-group">
+<input type="checkbox" id="contactterms" name="terms" required>
+<label for="contactterms">I agree to recieve communication my contact info</label>
+</div>
+   
+          
+
+
+         
+      <p id="contactFeedback" style="color: #00e5ff; font-weight: bold; margin-top: 10px;"></p>
+   <button type="submit" class="btn">submit contact details</button>
+   </form>
+</section>
+ 
+        
+</main>
+
+<!--Site Footer-->
+ <footer>
+ <p> 2026 Game Retail. all Rights reserved</p>
+ </footer>
+
+
+<script>
+  document.title = "Contact Us | Game retail Customer Support & Store locations";
+</script>
+
+
+
+<script src="scripts/script.js"></script>
+<button id="backToTopBtn" onclick="scrollToTop()" title="Go to Top">back to top</button>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

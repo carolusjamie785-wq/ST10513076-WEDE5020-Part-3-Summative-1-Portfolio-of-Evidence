@@ -1,5 +1,5 @@
 ST10513076 WEDE5020 POE Part 3
-Jamie Carolus
+Jamie Carolus 
 
 Project overview
 Brief Description of Game retail Target Audience Proposal
@@ -111,14 +111,27 @@ https://medium.com/@ethancarter580/how-online-shopping-is-making-life-easier-for
 Innowise Step by step Ecommerce website development for success
 https://innowise.com/blog/plan-your-own-ecommerce-website-development-step-by-step/ {accessed 14 august 2026}
 
+## Changelog -record of development
+### 2026-8-14 initail setup part 1
+- created 5 html Pages: HomePage, About, Products, Enquiry, Contact
+-added my proposal
+-added images and alt text to all images
+-added my references
 
+### part 2 changelog
+improved websie added css
+added typography links
+added styling
+added borders
+added semantics
 
-
-
-
-
-
-
+### 2026-10-31 final optimization
+-added Javascript form validation for enquiry and contact
+-implemented Contact form processing and enquiry
+-added interactive elements like buy notifications and lightbox
+-added back to Top button
+-Improved SEO tags, Description, keywords
+-improved Images names
 
 
 

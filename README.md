@@ -114,24 +114,24 @@ https://innowise.com/blog/plan-your-own-ecommerce-website-development-step-by-st
 ## Changelog -record of development
 ### 2026-8-14 initail setup part 1
 - created 5 html Pages: HomePage, About, Products, Enquiry, Contact
--added my proposal
--added images and alt text to all images
--added my references
+- added my proposal
+- added images and alt text to all images
+- added my references
 
 ### part 2 changelog
--improved websie added css
--added typography links
--added styling
--added borders
--added semantics
+- improved websie added css
+- added typography links
+- added styling
+- added borders
+- added semantics
 
 ### 2026-10-31 final optimization
--added Javascript form validation for enquiry and contact
--implemented Contact form processing and enquiry
--added interactive elements like buy notifications and lightbox
--added back to Top button
--Improved SEO tags, Description, keywords
--improved Images names
+- added Javascript form validation for enquiry and contact
+- implemented Contact form processing and enquiry
+- added interactive elements like buy notifications and lightbox
+- added back to Top button
+- Improved SEO tags, Description, keywords
+- improved Images names
 
 
 
